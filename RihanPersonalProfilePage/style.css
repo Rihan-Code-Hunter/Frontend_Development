@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+   background-color: #f9f9f9; 
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+img{
+    height: 150px;
+}
+.profile{
+    padding: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    margin-left: 15px;
+    border-radius: 10px;
+    
+}
+
+.information {
+  display: flex;
+  
+}
+.information span {
+  
+  margin: 10px 0;
+  font-size: 16px;
+}
+.information strong {
+ 
+  margin-right: 5px;
+}
+.skills {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px 15px;
+  min-width: 300px;
+  padding-top: 10px;
+  margin-top: 13px;
+  border-radius: 10px;
+}
+h2{
+    padding-bottom: 25px;
+}
+.skills i {
+  margin-right: 8px;
+  color: #007bff;
+}
+
+
+.range, .range2, .range3 {
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0;
+  position: relative;
+}
+
+/* Example fill for .range (e.g., React - 80%) */
+.range::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 80%; /* Adjust skill level here */
+  background-color: #61dafb; /* React blue */
+  border-radius: 5px;
+}
+
+/* Example fill for .range2 (e.g., NodeJS/MongoDB - 70%) */
+.range2::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 70%;
+  background-color: #68a063; /* Node green or MongoDB green */
+  border-radius: 5px;
+}
+
+/* Example fill for .range3 (e.g., Python/C++ - 60%) */
+.range3::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 60%;
+  background-color: #f7df1e; /* JS yellow or your choice */
+  border-radius: 5px;
+}
+.aboutMe{
+    padding: 10px;
+    margin: 10px;
+}
+.aboutMe {
+  
+  padding: 20px 15px;
+  margin-top: 0;
+  margin-left: 50px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  
+  
+  
+}
+
+.aboutMe h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #61dafb;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.aboutMe p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  
+}

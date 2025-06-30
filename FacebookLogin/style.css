@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #f6f6f6;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+   
+}
+
+.link{
+    text-decoration: none;
+    color: #1877f2;
+    background-color: #fff;
+}
+.input{
+    padding: 10px;
+    
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.logIn{
+    width:292px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:#1877f2;
+    border: none;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.newAccount{
+    width:292px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(5, 185, 5);
+    border: none;
+    color: #fff;
+}
+.container{
+    padding-right: 20px;
+}
+img{
+    padding-left:60px;
+    margin-top: 70px;
+}
+p{
+    padding-top: 40px;
+}
